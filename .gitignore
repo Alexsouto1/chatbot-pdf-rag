@@ -1,0 +1,17 @@
+# Java
+target/
+*.class
+.shared/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
