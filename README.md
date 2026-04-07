@@ -1,7 +1,9 @@
+<img width="1917" height="914" alt="chatbot" src="https://github.com/user-attachments/assets/be7cb072-8c17-4eed-98c4-1cf9bcd7a3c1" />
+
 # Chatbot RAG con Java & React
 
 Este es un chatbot inteligente capaz de analizar documentos PDF y responder preguntas basadas en su contenido. 
-Utiliza una arquitectura **RAG (Retrieval-Augmented Generation)** para extraer contexto del documento y generar respuestas precisas usando modelos locales.
+Utiliza una arquitectura RAG para extraer contexto del documento y generar respuestas precisas usando modelos locales.
 
 ## Tecnologías utilizadas
 
@@ -17,4 +19,6 @@ Utiliza una arquitectura **RAG (Retrieval-Augmented Generation)** para extraer c
    ```bash
    ollama pull llama3
    ollama pull mxbai-embed-large
+
+   chroma run --host localhost --port 8000
 
